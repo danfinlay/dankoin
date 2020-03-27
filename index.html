@@ -14,26 +14,23 @@ Released under the MIT license: http://jsbin.mit-license.org
   <meta name="viewport" content="width=device-width">
   <title>DANK!</title>
 <style id="jsbin-css">
-html, body {
+html, body, .content {
   font-family: helvetica, sans-serif;
-}
-
-content {
-  max-width: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-content > iframe {
-
+.content {
+  max-width: 700px;
 }
+
 </style>
 </head>
 <body>
 
 
-  <content>
+  <div class="content">
     <h1>DanKoin</h1>
     <p>Welcome to DanKoin! The token that is exclusively given out to people for being totally awesome (in the opinion of Dan Finlay).</p>
     <p>You can't do much with them yet (mostly just trade on Uniswap), but they are only going to get more cool over time! A few things I'm thinking of:</p>
@@ -57,7 +54,7 @@ content > iframe {
     "
     id="myId"
   />
-  </content>
+  </div>
 
 </body>
 </html>
